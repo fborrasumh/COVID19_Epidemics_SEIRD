@@ -1,0 +1,8 @@
+graph G {
+        rankdir="LR";
+        node[label=<<B>\N</B>>];
+        S -- E [label=<<I>p</I>_<SUB>contagion,e</SUB><BR/><I>p</I>_<SUB>contagion,i</SUB>>];
+        E -- I [label=<<I>t</I>_<SUB>incubation</SUB>>];
+        I -- R [label=<<I>t</I>_<SUB>symptomatic</SUB><BR/><I>p</I>_<SUB>recover</SUB>>];
+        I -- D [label=<<I>t</I>_<SUB>symptomatic</SUB><BR/><I>p</I>_<SUB>die</SUB>>];
+}
